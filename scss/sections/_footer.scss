@@ -3,6 +3,7 @@
     background-image: url(../resources/image/index/fondo-footer.jpg);
     background-repeat: repeat;
     width: 100%;
+
     .grid-footer {
         display: grid;
         grid-template-columns: 20% 40% 40%;
@@ -12,46 +13,48 @@
         grid-template-areas:
             "redes datos ubicacion";
     }
-    
+
     .redes {
         grid-area: redes;
     }
-    
+
     .datos {
         grid-area: datos;
     }
-    
+
     .ubicacion {
         grid-area: ubicacion;
     }
-    
+
     .redes {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
     .datos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
     .ubicacion {
         display: flex;
         justify-content: center;
     }
 }
+
 @media (max-width: 768px) {
-    
+
     .datos {
         font-size: 15px;
     }
 }
+
 @media (max-width: 700px) {
-    #footer{
+    #footer {
         .grid-footer {
             display: grid;
             grid-template-columns: 100%;
@@ -63,14 +66,16 @@
                 "datos"
                 "ubicacion";
         }
+
         .redes {
             flex-direction: row;
             padding: 10px;
         }
     }
 }
+
 @media (max-width: 450px) {
-    #footer{
+    #footer {
 
         .redes {
             flex-direction: row;

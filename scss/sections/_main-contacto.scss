@@ -30,21 +30,25 @@
     }
 
     .separacion-imput:focus {
-        background-color: rgb(242, 255, 65);
+        background-color: gainsboro;
+        color: black;
+        width: 101%;
     }
 }
+
 @media (max-width: 1024px) {
     #main-contacto {
         img {
             width: 200px;
         }
-    
+
         .form-contacto {
             width: 300px;
             padding: 3px;
         }
     }
 }
+
 @media (max-width: 700px) {
     #main-contacto img {
         display: none;

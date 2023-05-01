@@ -1,6 +1,6 @@
 #main-index {
 
-    .grid-index {
+    .main-index__grid {
         display: grid;
         grid-template-columns: 30% 30% 30%;
         grid-template-rows: 1fr;
@@ -9,19 +9,31 @@
         justify-content: space-between;
         align-items: stretch;
         grid-template-areas:
-            "seccion1 seccion2 seccion3";
+            "main-index__seccion1 main-index__seccion2 main-index__seccion3";
     }
 
-    .seccion2 {
-        grid-area: seccion2;
+    .main-index__seccion2 {
+        grid-area: main-index__seccion2;
+
+        :hover {
+            width: 101%;
+        }
     }
 
-    .seccion1 {
-        grid-area: seccion1;
+    .main-index__seccion1 {
+        grid-area: main-index__seccion1;
+
+        :hover {
+            width: 101%;
+        }
     }
 
-    .seccion3 {
-        grid-area: seccion3;
+    .main-index__seccion3 {
+        grid-area: main-index__seccion3;
+
+        :hover {
+            width: 101%;
+        }
     }
 
     .seccion1,
@@ -41,7 +53,7 @@
 
 @media (max-width: 450px) {
     #main-index {
-        .grid-index {
+        .main-index__grid {
             display: grid;
             grid-template-columns: 100%;
             grid-template-rows: 1fr;
@@ -50,9 +62,9 @@
             justify-content: space-between;
             align-items: center;
             grid-template-areas:
-                "seccion1"
-                "seccion2"
-                "seccion3"
+                "main-index__seccion1"
+                "main-index__seccion2"
+                "main-index__seccion3"
         }
     }
 }

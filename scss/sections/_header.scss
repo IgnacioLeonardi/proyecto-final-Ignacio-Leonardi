@@ -1,3 +1,9 @@
-.navbar-toggler{
-    border: none;
+header {
+    .navbar-toggler {
+        border: none;
+    }
+
+    .nav-link:hover {
+        color: #009fe3 !important;
+    }
 }
