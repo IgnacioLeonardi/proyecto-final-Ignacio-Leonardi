@@ -3,7 +3,17 @@ header {
         border: none;
     }
 
-    .nav-link:hover {
-        color: #009fe3 !important;
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+
+
+    .header-iconohamburguesa img {
+
+        height: 2rem !important;
+    }
+    .nav-item:hover{
+        font-weight: bold;
     }
 }
