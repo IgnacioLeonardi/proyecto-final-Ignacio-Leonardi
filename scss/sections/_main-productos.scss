@@ -97,16 +97,19 @@
     #main-productos {
         .grid-productos {
             display: grid;
-            grid-template-columns: 40% 40%;
+            grid-template-columns: 100%;
             grid-template-rows: 1fr 1fr;
             gap: 0px 0px;
             grid-auto-flow: row;
             grid-template-areas:
-                "prod1 prod2"
-                "prod3 prod4"
-                "prod5 prod6"
-                "prod7 prod8";
-            justify-content: space-between;
+                "prod1"
+                "prod2"
+                "prod3"
+                "prod4"
+                "prod5"
+                "prod6"
+                "prod7"
+                "prod8";
         }
     }
 }

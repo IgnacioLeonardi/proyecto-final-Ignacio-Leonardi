@@ -176,7 +176,7 @@ body {
     flex-direction: column; }
     .quienes-somos-flex p {
       padding-top: 10px;
-      width: 300px;
+      width: 350px;
       text-align: justify;
       font-size: 18px; }
     .quienes-somos-flex img {
@@ -254,12 +254,11 @@ body {
 @media (max-width: 450px) {
   #main-productos .grid-productos {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "prod1 prod2" "prod3 prod4" "prod5 prod6" "prod7 prod8";
-    justify-content: space-between; } }
+    grid-template-areas: "prod1" "prod2" "prod3" "prod4" "prod5" "prod6" "prod7" "prod8"; } }
 
 #main-cursos .banner {
   width: 100%; }
@@ -326,7 +325,8 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center; }
+  align-items: center;
+  align-content: center; }
 
 #main-contacto .form-contacto {
   display: flex;
